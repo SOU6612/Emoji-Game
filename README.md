@@ -1,4 +1,4 @@
-In this project, let's build an **Emoji Game** by applying the concepts we have learned till now.
+In this project, let's build an **Emoji Game** 
 
 ### Refer to the image below:
 
@@ -32,25 +32,25 @@ In this project, let's build an **Emoji Game** by applying the concepts we have 
 ### Completion Instructions
 
 <details>
-<summary>Functionality to be added</summary>
+<summary>Functionality added</summary>
 <br/>
 
-The app must have the following functionalities
+The app have the following functionalities
 
-- Initially, the _Score_ and _Total Score_ for the current game should be **0**
+- Initially, the _Score_ and _Total Score_ for the current game will be **0**
 - When an **Emoji** is clicked,
 
-  - If it is not the same as any of the previously clicked emojis, then the _Score_ should be incremented by one
+  - If it is not the same as any of the previously clicked emojis, then the _Score_ will be incremented by one
   - If all the emojis are clicked exactly once
 
-    - [Won Game](https://assets.ccbp.in/frontend/content/react-js/emoji-game-won-game-lg-output.png) view should be displayed
+    - [Won Game](https://assets.ccbp.in/frontend/content/react-js/emoji-game-won-game-lg-output.png) view will be displayed
 
   - If it is the same as any of the previously clicked emojis
-    - [Lose Game](https://assets.ccbp.in/frontend/content/react-js/emoji-game-lose-game-lg-output.png) view should be displayed
-  - If the score achieved in the current game is higher than the previous scores then the _Top Score_ should be updated accordingly
+    - [Lose Game](https://assets.ccbp.in/frontend/content/react-js/emoji-game-lose-game-lg-output.png) view will be displayed
+  - If the score achieved in the current game is higher than the previous scores then the _Top Score_ will be updated accordingly
 
-- When the _Play Again_ button is clicked, then we should be able to play the game again
-  - The _Score_ value should be reset but not the _Top Score_ value
+- When the _Play Again_ button is clicked, then we will be able to play the game again
+  - The _Score_ value will be reset but not the _Top Score_ value
 - The `EmojiGame` component receives the `emojisList` as a prop. It consists of a list of emoji objects with the following properties in each emoji object
 
   |    Key    | Data Type |
@@ -77,64 +77,12 @@ The app must have the following functionalities
 
 </details>
 
-<details>
-<summary>Implementation Files</summary>
-<br/>
-
-Use these files to complete the implementation:
-
-- `src/components/EmojiGame/index.js`
-- `src/components/EmojiGame/index.css`
-- `src/components/NavBar/index.js`
-- `src/components/NavBar/index.css`
-- `src/components/EmojiCard/index.js`
-- `src/components/EmojiCard/index.css`
-- `src/components/WinOrLoseCard/index.js`
-- `src/components/WinOrLoseCard/index.css`
-</details>
-
-### Quick Tips
-
-<details>
-<summary>Click to view</summary>
-<br>
-
-- You can use the `cursor` CSS property to specify the mouse cursor to be displayed when pointing over an element
-
-  ```
-    cursor: pointer;
-  ```
-
-  <br/>
-   <img src="https://assets.ccbp.in/frontend/content/react-js/cursor-pointer-img.png" alt="cursor pointer" style="width:100px" />
-
-- You can use the below `outline` CSS property for buttons and input elements to remove the highlighting when the elements are clicked
-
-  ```
-    outline: none;
-  ```
-
-</details>
-
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-**The following instructions are required for the tests to pass**
-
-- The emojis should have the alt as the value of the key `emojiName` from each emoji object
-
-</details>
-
 ### Resources
 
 <details>
 <summary>Image URLs</summary>
 
-- [https://assets.ccbp.in/frontend/react-js/game-logo-img.png](https://assets.ccbp.in/frontend/react-js/game-logo-img.png) alt should be **emoji logo**
+- [https://assets.ccbp.in/frontend/react-js/game-logo-img.png](https://assets.ccbp.in/frontend/react-js/game-logo-img.png)
 - [https://assets.ccbp.in/frontend/react-js/won-game-img.png](https://assets.ccbp.in/frontend/react-js/won-game-img.png)
 - [https://assets.ccbp.in/frontend/react-js/lose-game-img.png](https://assets.ccbp.in/frontend/react-js/lose-game-img.png)
 
@@ -168,10 +116,3 @@ Use these files to complete the implementation:
 - Roboto
 
 </details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
